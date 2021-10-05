@@ -1,0 +1,946 @@
+                        RRRRRRRRRRR   EEEEEEEEEEEE   SSSSSSSSSS   TTTTTTTTTTTT  OOOOOOOOOOOO  RRRRRRRRRRR   EEEEEEEEEEEE
+                       RRRRRRRRRRRR  EEEEEEEEEEEE  SSSSSSSSSSSS  TTTTTTTTTTTT  OOOOOOOOOOOO  RRRRRRRRRRRR  EEEEEEEEEEEE
+                      RR        RR  EE            SS        SS       TT       OO        OO  RR        RR  EE
+                     RR        RR  EE            SS                 TT       OO        OO  RR        RR  EE
+                    RR        RR  EE            SSS                TT       OO        OO  RR        RR  EE
+                   RRRRRRRRRRRR  EEEEEEEE       SSSSSSSSS         TT       OO        OO  RRRRRRRRRRRR  EEEEEEEE
+                  RRRRRRRRRRR   EEEEEEEE        SSSSSSSSS        TT       OO        OO  RRRRRRRRRRR   EEEEEEEE
+                 RR    RR      EE                     SSS       TT       OO        OO  RR    RR      EE
+                RR     RR     EE                      SS       TT       OO        OO  RR     RR     EE
+               RR      RR    EE            SS        SS       TT       OO        OO  RR      RR    EE
+              RR       RR   EEEEEEEEEEEE  SSSSSSSSSSSS       TT       OOOOOOOOOOOO  RR       RR   EEEEEEEEEEEE
+             RR        RR  EEEEEEEEEEEE   SSSSSSSSSS        TT       OOOOOOOOOOOO  RR        RR  EEEEEEEEEEEE
+
+
+
+                    JJJJJJJJJJ  555555555555    00000000     8888888888         444                    AAAAAAAAAA
+                    JJJJJJJJJJ  555555555555   0000000000   888888888888       4444                   AAAAAAAAAAAA
+                        JJ      55            00      0000  88        88      44 44                   AA        AA
+                        JJ      55            00     00 00  88        88     44  44                   AA        AA
+                        JJ      55            00    00  00   88      88     44   44                   AA        AA
+                        JJ      555555555     00   00   00    88888888     44444444444                AAAAAAAAAAAA
+                        JJ      5555555555    00  00    00    88888888    444444444444                AAAAAAAAAAAA
+                        JJ               55   00 00     00   88      88          44                   AA        AA
+                  JJ    JJ                55  0000      00  88        88         44                   AA        AA
+                  JJ    JJ                55  000       00  88        88         44                   AA        AA
+                  JJJJJJJJ      555555555555   0000000000   888888888888         44                   AA        AA
+                   JJJJJJ       55555555555     00000000     8888888888          44                   AA        AA
+
+
+****A  START  JOB 5084  RESTORE                         ROOM        1.17.00 PM 02 OCT 21  PRINTER1  SYS BSP1  JOB 5084  START  A****
+****A  START  JOB 5084  RESTORE                         ROOM        1.17.00 PM 02 OCT 21  PRINTER1  SYS BSP1  JOB 5084  START  A****
+****A  START  JOB 5084  RESTORE                         ROOM        1.17.00 PM 02 OCT 21  PRINTER1  SYS BSP1  JOB 5084  START  A****
+****A  START  JOB 5084  RESTORE                         ROOM        1.17.00 PM 02 OCT 21  PRINTER1  SYS BSP1  JOB 5084  START  A****
+                                                J E S 2   J O B   L O G
+
+
+13.16.28 JOB 5084  $HASP373 RESTORE  STARTED - INIT  1 - CLASS A - SYS BSP1
+13.16.28 JOB 5084  IEF403I RESTORE - STARTED - TIME=13.16.28
+13.16.29 JOB 5084  IEFACTRT - Stepname  Procstep  Program   Retcode
+13.16.29 JOB 5084  RESTORE    STEP01              IDCAMS    RC= 0000
+13.16.29 JOB 5084  RESTORE    STEP02              IEFBR14   RC= 0000
+13.16.29 JOB 5084 *IEC501A M 480,MP3270,SL,6250 BPI,RESTORE,STEP03
+13.17.00 JOB 5084  RESTORE    STEP03              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP04              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP05              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP06              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP07              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP08              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP09              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP10              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  RESTORE    STEP11              IEBCOPY   RC= 0000
+13.17.00 JOB 5084  IEF234E K 480,MP3270,PVT,RESTORE
+13.17.00 JOB 5084  IEF404I RESTORE - ENDED - TIME=13.17.00
+13.17.00 JOB 5084  $HASP395 RESTORE  ENDED
+
+
+------ JES2 JOB STATISTICS ------
+
+
+ 02 OCT 21 JOB EXECUTION DATE
+
+
+       184 CARDS READ
+
+
+       776 SYSOUT PRINT RECORDS
+
+
+         0 SYSOUT PUNCH RECORDS
+
+
+      0.53 MINUTES EXECUTION TIME
+    1     //RESTORE JOB 'ME',MSGLEVEL=(1,1),NOTIFY=HERC01,CLASS=A,                JOB 5084
+          //            MSGCLASS=A     ,TYPRUN=SCAN                               00020000
+          **********************************************************************  00030000
+          ***                                                                     00040000
+          ***  THIS JOB COPIES THE MAP3270 CORE SOFTWARE FROM A TAPE.             00050000
+          ***                                                                     00060000
+          ***  THE SOFTWARE RESIDES IN 9 DATASETS.  BY DEFAULT, THE DATASETS      00070000
+          ***  ARE PREFIXED WITH 'HERC01.MAP3270' ON VOLSER PUB002.               00080000
+          ***                                                                     00090000
+          ***    .PANEL CONTAINS THE SOURCE CODE FOR THE PANEL. EDITED MANUALLY   00100000
+          ***           AND USED AS INPUT TO THE PANEL COMPILER - MAP3270.        00110000
+          ***    .MAP   CONTAINS THE BAL CODE GENERATED BY MAP3270 FOR            00120000
+          ***           THE PANEL DEFINITION                                      00130000
+          ***    .ASM   CONTAINS BAL DATA DEFINITIONS FOR PANELS FROM MAP3270.    00140000
+          ***    .COB   CONTAINS COBOL DATA DEFINITIONS FOR PANELS FROM MAP3270.  00150000
+          ***    .PLI   CONTAINS PL/I DATA DEFINITIONS FOR PANELS FROM MAP3270.   00160000
+          ***    .MACLIB  CONTAINS MACROS FOR MAP3270.                            00170000
+          ***    .LOADLIB CONTAINS THE EXECUTABLE CODE.                           00180000
+          ***    .SOURCE CONTAINS ALL THE SOURCE CODE FOR THE COMPILER AND        00190000
+          ***            DEMO PROGRAMS.                                           00200000
+          ***    .CNTL   CONTAIN ALL RELATED JCL                                  00210000
+          ***                                                                     00220000
+          **********************************************************************  00230000
+          ***                                                                     00240000
+          ***  DELETE BACKUPS AND RENAME CURRENT DATASETS TO BACKUP               00250000
+          ***                                                                     00260000
+    2     //STEP01  EXEC PGM=IDCAMS                                               00270000
+    3     //SYSPRINT DD SYSOUT=*                                                  00280000
+    4     //SYSIN    DD *                                                         00290000
+          **********************************************************************  00610000
+          ***                                                                     00620000
+          ***  ALLOC THE NEW MAP3270 DATASETS                                     00630000
+          ***                                                                     00640000
+          **********************************************************************  00650000
+    5     //STEP02  EXEC PGM=IEFBR14                                              00660000
+    6     //DD02     DD DSN=HERC01.MAP3270.ASM,DISP=(NEW,CATLG,DELETE),           00670000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00680000
+          //         SPACE=(TRK,(15,15,30)),                                      00690000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=3120,DSORG=PO)                00700000
+    7     //DD03     DD DSN=HERC01.MAP3270.COB,DISP=(NEW,CATLG,DELETE),           00710000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00720000
+          //         SPACE=(TRK,(15,15,30)),                                      00730000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=3120,DSORG=PO)                00740000
+    8     //DD04     DD DSN=HERC01.MAP3270.MAP,DISP=(NEW,CATLG,DELETE),           00750000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00760000
+          //         SPACE=(TRK,(15,15,30)),                                      00770000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=3120,DSORG=PO)                00780000
+    9     //DD05     DD DSN=HERC01.MAP3270.PANEL,DISP=(NEW,CATLG,DELETE),         00790000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00800000
+          //         SPACE=(TRK,(15,15,30)),                                      00810000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=3120,DSORG=PO)                00820000
+   10     //DD06     DD DSN=HERC01.MAP3270.PLI,DISP=(NEW,CATLG,DELETE),           00830000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00840000
+          //         SPACE=(TRK,(15,15,30)),                                      00850000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=400,DSORG=PO)                 00860000
+   11     //DD07     DD DSN=HERC01.MAP3270.MACLIB,DISP=(NEW,CATLG,DELETE),        00870000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00880000
+          //         SPACE=(TRK,(15,15,30)),                                      00890000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=3120,DSORG=PO)                00900000
+   12     //DD08     DD DSN=HERC01.MAP3270.SOURCE,DISP=(NEW,CATLG,DELETE),        00910000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00920000
+          //         SPACE=(TRK,(15,15,30)),                                      00930000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=400,DSORG=PO)                 00940000
+   13     //DD09     DD DSN=HERC01.MAP3270.CNTL,DISP=(NEW,CATLG,DELETE),          00950000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    00960000
+          //         SPACE=(TRK,(20,20,30)),                                      00970000
+          //         DCB=(RECFM=FB,LRECL=80,BLKSIZE=3120,DSORG=PO)                00980000
+   14     //DDLOAD   DD DSN=HERC01.MAP3270.LOADLIB,DISP=(NEW,CATLG,DELETE),       00990000
+          //         UNIT=DISK,VOL=SER=PUB002,                                    01000000
+          //         SPACE=(TRK,(60,15,30)),                                      01010000
+          //         DCB=(RECFM=U,BLKSIZE=19069,DSORG=PO)                         01020000
+          ***                                                                     01030000
+   15     //STEP03  EXEC PGM=IEBCOPY                                              01040000
+   16     //SYSPRINT DD SYSOUT=*                                                  01050000
+   17     //TAPE     DD DSN=DISTRO2,DISP=(OLD,KEEP),                              01060000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01070000
+          //         LABEL=(2,SL)                                                 01080000
+   18     //DDASM    DD DSN=HERC01.MAP3270.ASM,DISP=SHR                           01090000
+   19     //SYSIN    DD *                                                         01100000
+          ***                                                                     01120000
+   20     //STEP04  EXEC PGM=IEBCOPY                                              01130000
+   21     //SYSPRINT DD SYSOUT=*                                                  01140000
+   22     //TAPE     DD DSN=DISTRO3,DISP=(OLD,KEEP),                              01150000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01160000
+          //         LABEL=(3,SL)                                                 01170000
+   23     //DDCOB    DD DSN=HERC01.MAP3270.COB,DISP=SHR                           01180000
+   24     //SYSIN    DD *                                                         01190000
+          ***                                                                     01210000
+   25     //STEP05  EXEC PGM=IEBCOPY                                              01220000
+   26     //SYSPRINT DD SYSOUT=*                                                  01230000
+   27     //TAPE     DD DSN=DISTRO4,DISP=(OLD,KEEP),                              01240000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01250000
+          //         LABEL=(4,SL)                                                 01260000
+   28     //DDMACLIB DD DSN=HERC01.MAP3270.MACLIB,DISP=SHR                        01270000
+   29     //SYSIN    DD *                                                         01280000
+          ***                                                                     01300000
+   30     //STEP06  EXEC PGM=IEBCOPY                                              01310000
+   31     //SYSPRINT DD SYSOUT=*                                                  01320000
+   32     //TAPE     DD DSN=DISTRO5,DISP=(OLD,KEEP),                              01330000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01340000
+          //         LABEL=(5,SL)                                                 01350000
+   33     //DDMAP    DD DSN=HERC01.MAP3270.MAP,DISP=SHR                           01360000
+   34     //SYSIN    DD *                                                         01370000
+          ***                                                                     01390000
+   35     //STEP07  EXEC PGM=IEBCOPY                                              01400000
+   36     //SYSPRINT DD SYSOUT=*                                                  01410000
+   37     //TAPE     DD DSN=DISTRO6,DISP=(OLD,KEEP),                              01420000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01430000
+          //         LABEL=(6,SL)                                                 01440000
+   38     //DDPANEL  DD DSN=HERC01.MAP3270.PANEL,DISP=SHR                         01450000
+   39     //SYSIN    DD *                                                         01460000
+          ***                                                                     01480000
+   40     //STEP08  EXEC PGM=IEBCOPY                                              01490000
+   41     //SYSPRINT DD SYSOUT=*                                                  01500000
+   42     //TAPE     DD DSN=DISTRO7,DISP=(OLD,KEEP),                              01510000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01520000
+          //         LABEL=(7,SL)                                                 01530000
+   43     //DDPLI    DD DSN=HERC01.MAP3270.PLI,DISP=SHR                           01540000
+   44     //SYSIN    DD *                                                         01550000
+          ***                                                                     01570000
+   45     //STEP09  EXEC PGM=IEBCOPY                                              01580000
+   46     //SYSPRINT DD SYSOUT=*                                                  01590000
+   47     //TAPE     DD DSN=DISTRO8,DISP=(OLD,KEEP),                              01600000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01610000
+          //         LABEL=(8,SL)                                                 01620000
+   48     //DDLOAD   DD DSN=HERC01.MAP3270.SOURCE,DISP=SHR                        01630000
+   49     //SYSIN    DD *                                                         01640000
+          ***                                                                     01660000
+   50     //STEP10  EXEC PGM=IEBCOPY                                              01670000
+   51     //SYSPRINT DD SYSOUT=*                                                  01680000
+   52     //TAPE     DD DSN=DISTRO9,DISP=(OLD,KEEP),                              01690000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01700000
+          //         LABEL=(9,SL)                                                 01710000
+   53     //DDLOAD   DD DSN=HERC01.MAP3270.LOADLIB,DISP=SHR                       01720000
+   54     //SYSIN    DD *                                                         01730000
+          ***                                                                     01750000
+   55     //STEP11  EXEC PGM=IEBCOPY                                              01760000
+   56     //SYSPRINT DD SYSOUT=*                                                  01770000
+   57     //TAPE     DD DSN=DISTR10,DISP=(OLD,KEEP),                              01780000
+          //         UNIT=(480,,DEFER),VOL=(,RETAIN,SER=MP3270),                  01790000
+          //         LABEL=(10,SL)                                                01800000
+   58     //DDCNTL   DD DSN=HERC01.MAP3270.CNTL,DISP=SHR                          01810000
+   59     //SYSIN    DD *                                                         01820000
+          ***                                                                     01840000
+IEF236I ALLOC. FOR RESTORE STEP01
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF237I 240  ALLOCATED TO SYS00002
+IEF237I 280  ALLOCATED TO SYS00001
+IEF285I   HERC01.MAP3270.OLD.ASM                       KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00003
+IEF285I   HERC01.MAP3270.OLD.CNTL                      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00004
+IEF285I   HERC01.MAP3270.OLD.COB                       KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00005
+IEF285I   HERC01.MAP3270.OLD.MACLIB                    KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00006
+IEF285I   HERC01.MAP3270.OLD.MAP                       KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00007
+IEF285I   HERC01.MAP3270.OLD.PANEL                     KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00008
+IEF285I   HERC01.MAP3270.OLD.PLI                       KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00009
+IEF285I   HERC01.MAP3270.OLD.SOURCE                    KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00010
+IEF285I   HERC01.MAP3270.OLD.LOADLIB                   KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00011
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000011      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00013
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000013      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00015
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000015      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00017
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000017      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00019
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000019      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00021
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000021      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00023
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000023      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00025
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000025      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF237I 280  ALLOCATED TO SYS00027
+IEF285I   SYS21275.T131629.RA000.RESTORE.R0000027      KEPT          *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF142I RESTORE STEP01 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0111                         SYSOUT
+IEF285I   JES2.JOB05084.SI0101                         SYSIN
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF373I STEP /STEP01  / START 21275.1316
+IEF374I STEP /STEP01  / STOP  21275.1316 CPU    0MIN 00.17SEC SRB    0MIN 00.02SEC VIRT   224K SYS   244K
+************************************************************************************************************************************
+*     1. Jobstep of job: RESTORE     Stepname: STEP01      Program name: IDCAMS     Executed on 02.10.21 from 13.16.28 to 13.16.29 *
+*         elapsed time  24:00:00,24                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,19               Virtual Storage used:    224K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,19   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:     31                                                                           *
+*     DMY.......0 DMY.......0 240.......0                                                                                          *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,31                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP02
+IEF237I 280  ALLOCATED TO DD02
+IEF237I 240  ALLOCATED TO SYS00491
+IEF237I 280  ALLOCATED TO DD03
+IEF237I 280  ALLOCATED TO DD04
+IEF237I 280  ALLOCATED TO DD05
+IEF237I 280  ALLOCATED TO DD06
+IEF237I 280  ALLOCATED TO DD07
+IEF237I 280  ALLOCATED TO DD08
+IEF237I 280  ALLOCATED TO DD09
+IEF237I 280  ALLOCATED TO DDLOAD
+IEF142I RESTORE STEP02 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   HERC01.MAP3270.ASM                           CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   HERC01.MAP3270.COB                           CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   HERC01.MAP3270.MAP                           CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   HERC01.MAP3270.PANEL                         CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   HERC01.MAP3270.PLI                           CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   HERC01.MAP3270.MACLIB                        CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   HERC01.MAP3270.SOURCE                        CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   HERC01.MAP3270.CNTL                          CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   HERC01.MAP3270.LOADLIB                       CATALOGED     *--------0
+IEF285I   VOL SER NOS= PUB002.
+IEF373I STEP /STEP02  / START 21275.1316
+IEF374I STEP /STEP02  / STOP  21275.1316 CPU    0MIN 00.00SEC SRB    0MIN 00.00SEC VIRT     4K SYS   200K
+IEF236I ALLOC. FOR RESTORE STEP03
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDASM
+IEF237I 240  ALLOCATED TO SYS00493
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP03 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0112                         SYSOUT
+IEF285I   DISTRO2                                      KEPT          *-------15
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.ASM                           KEPT          *--------3
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0102                         SYSIN
+IEF373I STEP /STEP03  / START 21275.1316
+IEF374I STEP /STEP03  / STOP  21275.1317 CPU    0MIN 00.02SEC SRB    0MIN 00.00SEC VIRT   768K SYS   220K
+************************************************************************************************************************************
+*     3. Jobstep of job: RESTORE     Stepname: STEP03      Program name: IEBCOPY    Executed on 02.10.21 from 13.16.29 to 13.17.00 *
+*         elapsed time  24:00:31,22                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,02               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,02   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480......15 280.......3 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,03                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP04
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDCOB
+IEF237I 240  ALLOCATED TO SYS00495
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP04 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0113                         SYSOUT
+IEF285I   DISTRO3                                      KEPT          *-------17
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.COB                           KEPT          *--------3
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0103                         SYSIN
+IEF373I STEP /STEP04  / START 21275.1317
+IEF374I STEP /STEP04  / STOP  21275.1317 CPU    0MIN 00.02SEC SRB    0MIN 00.00SEC VIRT   768K SYS   224K
+************************************************************************************************************************************
+*     4. Jobstep of job: RESTORE     Stepname: STEP04      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,04                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,02               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,02   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480......17 280.......3 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,03                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP05
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDMACLIB
+IEF237I 240  ALLOCATED TO SYS00497
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP05 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0114                         SYSOUT
+IEF285I   DISTRO4                                      KEPT          *-------53
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.MACLIB                        KEPT          *--------3
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0104                         SYSIN
+IEF373I STEP /STEP05  / START 21275.1317
+IEF374I STEP /STEP05  / STOP  21275.1317 CPU    0MIN 00.02SEC SRB    0MIN 00.00SEC VIRT   768K SYS   224K
+************************************************************************************************************************************
+*     5. Jobstep of job: RESTORE     Stepname: STEP05      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,05                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,02               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,02   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480......53 280.......3 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,03                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP06
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDMAP
+IEF237I 240  ALLOCATED TO SYS00499
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP06 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0115                         SYSOUT
+IEF285I   DISTRO5                                      KEPT          *-------39
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.MAP                           KEPT          *--------3
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0105                         SYSIN
+IEF373I STEP /STEP06  / START 21275.1317
+IEF374I STEP /STEP06  / STOP  21275.1317 CPU    0MIN 00.02SEC SRB    0MIN 00.00SEC VIRT   768K SYS   224K
+************************************************************************************************************************************
+*     6. Jobstep of job: RESTORE     Stepname: STEP06      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,04                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,02               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,02   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480......39 280.......3 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,03                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP07
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDPANEL
+IEF237I 240  ALLOCATED TO SYS00501
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP07 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0116                         SYSOUT
+IEF285I   DISTRO6                                      KEPT          *-------13
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.PANEL                         KEPT          *--------3
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0106                         SYSIN
+IEF373I STEP /STEP07  / START 21275.1317
+IEF374I STEP /STEP07  / STOP  21275.1317 CPU    0MIN 00.02SEC SRB    0MIN 00.00SEC VIRT   768K SYS   224K
+************************************************************************************************************************************
+*     7. Jobstep of job: RESTORE     Stepname: STEP07      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,03                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,02               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,02   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480......13 280.......3 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,03                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP08
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDPLI
+IEF237I 240  ALLOCATED TO SYS00503
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP08 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0117                         SYSOUT
+IEF285I   DISTRO7                                      KEPT          *------121
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.PLI                           KEPT          *--------3
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0107                         SYSIN
+IEF373I STEP /STEP08  / START 21275.1317
+IEF374I STEP /STEP08  / STOP  21275.1317 CPU    0MIN 00.03SEC SRB    0MIN 00.01SEC VIRT   768K SYS   224K
+************************************************************************************************************************************
+*     8. Jobstep of job: RESTORE     Stepname: STEP08      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,05                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,04               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,04   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480.....121 280.......3 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,06                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP09
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDLOAD
+IEF237I 240  ALLOCATED TO SYS00505
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP09 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0118                         SYSOUT
+IEF285I   DISTRO8                                      KEPT          *------531
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.SOURCE                        KEPT          *--------4
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0108                         SYSIN
+IEF373I STEP /STEP09  / START 21275.1317
+IEF374I STEP /STEP09  / STOP  21275.1317 CPU    0MIN 00.07SEC SRB    0MIN 00.02SEC VIRT   768K SYS   228K
+************************************************************************************************************************************
+*     9. Jobstep of job: RESTORE     Stepname: STEP09      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,11                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,09               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,09   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480.....531 280.......4 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,15                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP10
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDLOAD
+IEF237I 240  ALLOCATED TO SYS00507
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP10 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0119                         SYSOUT
+IEF285I   DISTRO9                                      KEPT          *-------34
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.LOADLIB                       KEPT          *--------4
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0109                         SYSIN
+IEF373I STEP /STEP10  / START 21275.1317
+IEF374I STEP /STEP10  / STOP  21275.1317 CPU    0MIN 00.03SEC SRB    0MIN 00.00SEC VIRT   768K SYS   228K
+************************************************************************************************************************************
+*    10. Jobstep of job: RESTORE     Stepname: STEP10      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,05                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,03               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,03   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480......34 280.......4 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,05                                             *
+************************************************************************************************************************************
+IEF236I ALLOC. FOR RESTORE STEP11
+IEF237I JES2 ALLOCATED TO SYSPRINT
+IEF237I 480  ALLOCATED TO TAPE
+IEF237I 280  ALLOCATED TO DDCNTL
+IEF237I 240  ALLOCATED TO SYS00509
+IEF237I JES2 ALLOCATED TO SYSIN
+IEF142I RESTORE STEP11 - STEP WAS EXECUTED - COND CODE 0000
+IEF285I   JES2.JOB05084.SO0120                         SYSOUT
+IEF285I   DISTR10                                      KEPT          *-------20
+IEF285I   VOL SER NOS= MP3270.
+IEF285I   HERC01.MAP3270.CNTL                          KEPT          *--------3
+IEF285I   VOL SER NOS= PUB002.
+IEF285I   SYS1.UCAT.TSO                                KEPT          *--------0
+IEF285I   VOL SER NOS= PUB000.
+IEF285I   JES2.JOB05084.SI0110                         SYSIN
+IEF373I STEP /STEP11  / START 21275.1317
+IEF374I STEP /STEP11  / STOP  21275.1317 CPU    0MIN 00.02SEC SRB    0MIN 00.00SEC VIRT   768K SYS   228K
+************************************************************************************************************************************
+*    11. Jobstep of job: RESTORE     Stepname: STEP11      Program name: IEBCOPY    Executed on 02.10.21 from 13.17.00 to 13.17.00 *
+*         elapsed time  24:00:00,04                      CPU-Identifier:  BSP1           Page-in:      0                           *
+*             CPU time  00:00:00,02               Virtual Storage used:    768K         Page-out:      0                           *
+*           corr. CPU:  00:00:00,02   CPU time has been corrected by  1 / 1,0  multiplier                                          *
+*                                                                                                                                  *
+*     I/O Operation                                                                                                                *
+*     Number of records read via DD * or DD DATA:      1                                                                           *
+*     DMY.......0 480......20 280.......3 240.......0 DMY.......0                                                                  *
+*                                                                                                                                  *
+*                                          Charge for step (w/o SYSOUT):          0,03                                             *
+************************************************************************************************************************************
+IEF375I  JOB /RESTORE / START 21275.1316
+IEF376I  JOB /RESTORE / STOP  21275.1317 CPU    0MIN 00.42SEC SRB    0MIN 00.05SEC
+IDCAMS  SYSTEM SERVICES                                           TIME: 13:16:28        10/02/21     PAGE   1
+
+
+ DELETE 'HERC01.MAP3270.OLD.ASM'     NONVSAM PURGE                      00300000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.ASM DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.CNTL'    NONVSAM PURGE                      00310000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.CNTL DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.COB'     NONVSAM PURGE                      00320000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.COB DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.MACLIB'  NONVSAM PURGE                      00330000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.MACLIB DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.MAP'     NONVSAM PURGE                      00340000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.MAP DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.PANEL'   NONVSAM PURGE                      00350000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.PANEL DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.PLI'     NONVSAM PURGE                      00360000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.PLI DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.SOURCE'  NONVSAM PURGE                      00370000
+
+IDCAMS  SYSTEM SERVICES                                           TIME: 13:16:28        10/02/21     PAGE   2
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.SOURCE DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ DELETE 'HERC01.MAP3270.OLD.LOADLIB' NONVSAM PURGE                      00380000
+
+IDC0550I ENTRY (A) HERC01.MAP3270.OLD.LOADLIB DELETED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ SET LASTCC=0                                                           00390000
+
+ SET MAXCC=0                                                            00400000
+
+ ALTER HERC01.MAP3270.ASM -                                             00410000
+       NEWNAME(HERC01.MAP3270.OLD.ASM)                                  00420000
+
+IDC0531I ENTRY HERC01.MAP3270.ASM ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.CNTL -                                            00430000
+       NEWNAME(HERC01.MAP3270.OLD.CNTL)                                 00440000
+
+IDC0531I ENTRY HERC01.MAP3270.CNTL ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.COB -                                             00450000
+       NEWNAME(HERC01.MAP3270.OLD.COB)                                  00460000
+
+IDC0531I ENTRY HERC01.MAP3270.COB ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.MACLIB -                                          00470000
+       NEWNAME(HERC01.MAP3270.OLD.MACLIB)                               00480000
+
+IDC0531I ENTRY HERC01.MAP3270.MACLIB ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.MAP -                                             00490000
+       NEWNAME(HERC01.MAP3270.OLD.MAP)                                  00500000
+
+IDCAMS  SYSTEM SERVICES                                           TIME: 13:16:28        10/02/21     PAGE   3
+
+IDC0531I ENTRY HERC01.MAP3270.MAP ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.PANEL -                                           00510000
+       NEWNAME(HERC01.MAP3270.OLD.PANEL)                                00520000
+
+IDC0531I ENTRY HERC01.MAP3270.PANEL ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.PLI -                                             00530000
+       NEWNAME(HERC01.MAP3270.OLD.PLI)                                  00540000
+
+IDC0531I ENTRY HERC01.MAP3270.PLI ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.SOURCE -                                          00550000
+       NEWNAME(HERC01.MAP3270.OLD.SOURCE)                               00560000
+
+IDC0531I ENTRY HERC01.MAP3270.SOURCE ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ ALTER HERC01.MAP3270.LOADLIB -                                         00570000
+       NEWNAME(HERC01.MAP3270.OLD.LOADLIB)                              00580000
+
+IDC0531I ENTRY HERC01.MAP3270.LOADLIB ALTERED
+
+IDC0001I FUNCTION COMPLETED, HIGHEST CONDITION CODE WAS 0
+
+
+ SET LASTCC=0                                                           00590000
+
+ SET MAXCC=0                                                            00600000
+
+
+IDC0002I IDCAMS PROCESSING COMPLETE. MAXIMUM CONDITION CODE WAS 0
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDASM                                             01110000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  AIDCODES HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DBG3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DEMOPAN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO1P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO2P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO3P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTY3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000013 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDASM
+IEB149I  THERE ARE 0000029  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDCOB                                             01200000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  AIDCODES HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DBG3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DEMOPAN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO1P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO2P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO3P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYPARM  HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000013 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDCOB
+IEB149I  THERE ARE 0000029  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDMACLIB                                          01290000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  EREGS    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  ERETURN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  ESTART   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TCALL    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TCMD     HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TENDPAN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TFVERI   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TINPEND  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TINPMAP  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TINPST   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TRT3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TSBA     HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TSECT    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TSTPAN   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYRTN   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TWCC     HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  T3270    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  T3270D   HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000010 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDMACLIB
+IEB149I  THERE ARE 0000027  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDMAP                                             01380000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  DBG3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DEMOPAN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO1P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO2P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO3P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTY3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000011 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDMAP
+IEB149I  THERE ARE 0000029  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDPANEL                                           01470000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  DBG3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DEMOPAN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO1P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO2P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO3P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTY3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000013 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDPANEL
+IEB149I  THERE ARE 0000029  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDPLI                                             01560000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  AIDCODES HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DBG3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DEMOPAN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO1P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO2P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO3P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYPARM  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTY3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000012 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDPLI
+IEB149I  THERE ARE 0000029  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDLOAD                                            01650000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  ADEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  CDEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  FIX2STR  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MAP3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  PDEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  SELECT   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYCOB   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYPLI   HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000004 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDLOAD
+IEB149I  THERE ARE 0000028  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDLOAD                                            01740000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  ADEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  A3270    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  CDEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DBG3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DEMOPAN  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DYNALDA  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DYNALDP  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  DYNALOAD HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MAP3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO1P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO2P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MDEMO3P  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  PDEMO    HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYASM   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYCOB   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYPLI   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYRTN   HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTYRTNP  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  TTY3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  T327IOP  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  T3270IO  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  T3270IOP HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000051 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDLOAD
+IEB149I  THERE ARE 0000026  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                                        IEBCOPY MESSAGES AND CONTROL STATEMENTS                               PAGE 0001
+
+
+                     COPY INDD=TAPE,OUTDD=DDCNTL                                            01830000
+IEB167I  FOLLOWING MEMBER(S)  LOADED  FROM INPUT DATA SET REFERENCED BY TAPE     -
+IEB154I  $README  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  COMPILE1 HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  COMPILE2 HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  MAP3270  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  RESTORE  HAS BEEN SUCCESSFULLY  LOADED
+IEB154I  UNLOAD   HAS BEEN SUCCESSFULLY  LOADED
+IEB144I  THERE ARE 0000018 UNUSED TRACKS IN OUTPUT DATA SET REFERENCED BY DDCNTL
+IEB149I  THERE ARE 0000028  UNUSED DIRECTORY BLOCKS IN OUTPUT DIRECTORY
+IEB147I  END OF JOB -00 WAS HIGHEST SEVERITY CODE
+
+                        RRRRRRRRRRR   EEEEEEEEEEEE   SSSSSSSSSS   TTTTTTTTTTTT  OOOOOOOOOOOO  RRRRRRRRRRR   EEEEEEEEEEEE
+                       RRRRRRRRRRRR  EEEEEEEEEEEE  SSSSSSSSSSSS  TTTTTTTTTTTT  OOOOOOOOOOOO  RRRRRRRRRRRR  EEEEEEEEEEEE
+                      RR        RR  EE            SS        SS       TT       OO        OO  RR        RR  EE
+                     RR        RR  EE            SS                 TT       OO        OO  RR        RR  EE
+                    RR        RR  EE            SSS                TT       OO        OO  RR        RR  EE
+                   RRRRRRRRRRRR  EEEEEEEE       SSSSSSSSS         TT       OO        OO  RRRRRRRRRRRR  EEEEEEEE
+                  RRRRRRRRRRR   EEEEEEEE        SSSSSSSSS        TT       OO        OO  RRRRRRRRRRR   EEEEEEEE
+                 RR    RR      EE                     SSS       TT       OO        OO  RR    RR      EE
+                RR     RR     EE                      SS       TT       OO        OO  RR     RR     EE
+               RR      RR    EE            SS        SS       TT       OO        OO  RR      RR    EE
+              RR       RR   EEEEEEEEEEEE  SSSSSSSSSSSS       TT       OOOOOOOOOOOO  RR       RR   EEEEEEEEEEEE
+             RR        RR  EEEEEEEEEEEE   SSSSSSSSSS        TT       OOOOOOOOOOOO  RR        RR  EEEEEEEEEEEE
+
+
+
+                    JJJJJJJJJJ  555555555555    00000000     8888888888         444                    AAAAAAAAAA
+                    JJJJJJJJJJ  555555555555   0000000000   888888888888       4444                   AAAAAAAAAAAA
+                        JJ      55            00      0000  88        88      44 44                   AA        AA
+                        JJ      55            00     00 00  88        88     44  44                   AA        AA
+                        JJ      55            00    00  00   88      88     44   44                   AA        AA
+                        JJ      555555555     00   00   00    88888888     44444444444                AAAAAAAAAAAA
+                        JJ      5555555555    00  00    00    88888888    444444444444                AAAAAAAAAAAA
+                        JJ               55   00 00     00   88      88          44                   AA        AA
+                  JJ    JJ                55  0000      00  88        88         44                   AA        AA
+                  JJ    JJ                55  000       00  88        88         44                   AA        AA
+                  JJJJJJJJ      555555555555   0000000000   888888888888         44                   AA        AA
+                   JJJJJJ       55555555555     00000000     8888888888          44                   AA        AA
+
+
+****A   END   JOB 5084  RESTORE                         ROOM        1.17.00 PM 02 OCT 21  PRINTER1  SYS BSP1  JOB 5084   END   A****
+****A   END   JOB 5084  RESTORE                         ROOM        1.17.00 PM 02 OCT 21  PRINTER1  SYS BSP1  JOB 5084   END   A****
+****A   END   JOB 5084  RESTORE                         ROOM        1.17.00 PM 02 OCT 21  PRINTER1  SYS BSP1  JOB 5084   END   A****
