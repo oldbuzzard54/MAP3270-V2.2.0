@@ -1,0 +1,67 @@
+         MACRO                                                          00010000
+&NAME    TWCC  &ESCAPE=YES,&ERASE=ALT,&RESET=NO,&PRNTFMT=NO,         R1*00020000
+               &PRNT=NO,&ALARM=NO,&KBUNLK=NO,&RSTMDT=NO                 00030000
+.*********************************************************************  00040000
+.*                                                                      00050000
+.*   TWCC - GENERATE THE 3270 WRITE CONTROL COMMAND.  OPTIONALLY,       00060000
+.*          THE ESCAPE AND WRITE PREFIX CAN BE GENERATED, MAKING        00070000
+.*          THE 3270 SUITABLE FOR USE WITH TPUT.                        00080000
+.*          THIS MACRO IS FIRST WHEN DEFINING A SCREEN.                 00090000
+.*                                                                      00100000
+.* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    00110000
+.*                                                                  **  00120000
+.*                                                                  **  00130000
+.* MAP3270 V2.2.0 - SOFTWARE PACKAGE TO IMPLEMENT FULL SCREEN       **  00140000
+.* IO FOR IBM 3270 CLASS TERMINALS.                                 **  00150000
+.*                                                                  **  00160000
+.*             COPYRIGHT (C) 2021  EDWARD G LISS                    **  00170000
+.*                     EGLISS4024@GMAIL.COM                         **  00180000
+.*                                                                  **  00190000
+.* THIS PROGRAM IS FREE SOFTWARE: YOU CAN REDISTRIBUTE IT           **  00200000
+.* AND/OR MODIFY IT UNDER THE TERMS OF THE GNU GENERAL PUBLIC       **  00210000
+.* LICENSE AS PUBLISHED BY THE FREE SOFTWARE FOUNDATION,            **  00220000
+.* EITHER VERSION 3 OF THE LICENSE, OR ANY LATER VERSION.           **  00230000
+.*                                                                  **  00240000
+.* THIS PROGRAM IS DISTRIBUTED IN THE HOPE THAT IT WILL BE          **  00250000
+.* USEFUL, BUT WITHOUT ANY WARRANTY; WITHOUT EVEN THE IMPLIED       **  00260000
+.* WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR          **  00270000
+.* PURPOSE.  SEE THE GNU GENERAL PUBLIC LICENSE FOR MORE            **  00280000
+.* DETAILS.                                                         **  00290000
+.*                                                                  **  00300000
+.* PLEASE SEE HTTPS://WWW.GNU.ORG/LICENSES/ FOR A COPY OF THE       **  00310000
+.* GNU GENERAL PUBLIC LICENSE.                                      **  00320000
+.*                                                                  **  00330000
+.* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  *R1 00340000
+.*                                                                  *R1 00350000
+.* REVISION 1 (R1) - ADDED SUPPORT FOR ERASE ALTERNATE              *R1 00360000
+.*                                                                  *R1 00370000
+.********************************************************************R1 00380000
+         GBLA  &WCC                                                     00390000
+         AIF   (T'&NAME EQ 'O').NAMEOK                                  00400000
+&NAME    EQU   *                                                        00410000
+.NAMEOK  ANOP                                                           00420000
+&WCC     SETA  0                                                        00430000
+         TFVERI B'00100111',&ESCAPE,'ESCAPE'                            00440000
+         AIF   ('&ESCAPE' EQ 'NO').NOESC                                00450000
+         DC    AL1(&WCC)  3270 ESCAPE                                   00460000
+.NOESC   ANOP                                                           00470000
+         AIF   (T'&ERASE EQ 'O').ERASE                              R1  00480000
+         AIF   ('&ERASE' NE 'ALT').ERASE                            R1  00490000
+         DC    X'7E'        3270 WRITE ERASE ALTERNATE              R1  00500000
+         AGO   .OTHER                                               R1  00510000
+.ERASE   ANOP                                                       R1  00520000
+&WCC     SETA  B'11110001'                                              00530000
+         TFVERI B'00000100',&ERASE,'ERASE'                              00540000
+         DC    AL1(&WCC)  3270 WRITE(X'F1') OR WRITE/ERASE(X'F5')       00550000
+.OTHER   ANOP                                                       R1  00560000
+&WCC     SETA  0                                                        00570000
+.*                                                                      00580000
+         TFVERI B'01000000',&RESET,'RESET'                              00590000
+         TFVERI B'00110000',&PRNTFMT,'PRNTFMT'                          00600000
+         TFVERI B'00001000',&PRNT,'PRNT'                                00610000
+         TFVERI B'00000100',&ALARM,'ALARM'                              00620000
+         TFVERI B'00000010',&KBUNLK,'KBUNLK'                            00630000
+         TFVERI B'00000001',&RSTMDT,'RSTMDT'                            00640000
+         DC    AL1(&WCC)  3270 WCC                                      00650000
+.EXIT    ANOP                                                           00660000
+         MEND                                                           00670000
